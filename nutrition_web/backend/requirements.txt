@@ -1,0 +1,23 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# Database
+pymysql==1.1.1
+
+# Validation & Settings
+pydantic[email]==2.13.3
+pydantic-settings==2.6.0
+
+# Security
+python-jose[cryptography]==3.4.0
+passlib[bcrypt]==1.7.4
+pyjwt==2.12.1
+
+# Utils
+python-multipart==0.0.12
+
+# Reports & Documents (опционально)
+reportlab==4.2.0
+openpyxl==3.1.5
+python-docx==1.1.2
